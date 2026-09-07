@@ -52,6 +52,23 @@ To avoid redistributing source data improperly, raw data are not included in thi
 - Participant-wise validation helped reduce leakage between training and test data
 - Predictive performance suggested that HRV alone has limited ability to explain nightly sleep efficiency
 
+## Selected Results
+
+### Data Quality and Window Feasibility
+![QC segment distribution](figures/figure1_qc_segment_distribution.png)
+
+The overnight window retained substantially more QC-passing HRV segments than the 2-hour pre-sleep window, which improved feasibility for participant-wise modeling.
+
+### Model Performance
+![Model performance MAE](figures/figure2_model_performance_mae.png)
+
+Elastic Net performed similarly to the baseline mean predictor, while XGBoost generally performed worse. This suggests that aggregated HRV features alone provided limited incremental predictive value for sleep efficiency.
+
+### Symptom Profiles and Sleep Efficiency
+![Sleep efficiency by symptom profile](figures/figure3_sleep_efficiency_symptom_profiles.png)
+
+Participants in higher symptom-profile groups showed lower mean sleep efficiency in both the pre-sleep and overnight datasets.
+
 ## Repository Structure
 
 ```text
