@@ -5,6 +5,16 @@ This project investigates whether heart rate variability (HRV) features derived 
 
 The analysis compares pre-sleep and overnight HRV windows and evaluates both interpretable linear models and nonlinear machine-learning models.
 
+## Portfolio Notebook
+
+For a concise, recruiter-friendly version of the analysis, see:
+
+[02_hrv_sleep_portfolio.ipynb](notebooks/02_hrv_sleep_portfolio.ipynb)
+
+For the full exploratory workflow and intermediate analysis, see:
+
+[01_hrv_sleep_analysis.ipynb.ipynb](notebooks/01_hrv_sleep_analysis.ipynb.ipynb)
+
 ## Objectives
 - Predict nightly sleep efficiency using HRV-derived features
 - Compare pre-sleep and overnight HRV windows
