@@ -1,0 +1,7 @@
+window,profile,participants,mean_sleep_efficiency
+Pre-sleep,Low symptom,13,0.9427
+Pre-sleep,Moderate symptom,10,0.9051
+Pre-sleep,High symptom,2,0.8422
+Overnight,Low symptom,22,0.9510
+Overnight,Moderate symptom,15,0.9163
+Overnight,High symptom,3,0.8840
